@@ -12,7 +12,8 @@ Lastly, make the config file. It can be any file format but we recommend `.txt` 
 Example config:  
 ```plaintext
 # Config options go here
-show-change-button: true # If you want to allow users to refresh the splash text to see another random one.
+# If you want to allow users to refresh the splash text to see another random one:
+show-change-button: true
 ---
 # This is where you put the splash text. Each line is a separate item.
 This is some example text...
