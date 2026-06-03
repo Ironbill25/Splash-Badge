@@ -20,3 +20,19 @@ More example text...
 Some more text...
 ```
 After you have made the configuration, change the `data-path` attribute on the `<div>` to the path to the config file.
+
+## Config variables
+
+Variables are placed above the `---` divider. They should use `key:value` or `key: value` format.  
+Variables starting with `css-` are interpreted as CSS variables to apply to the badge.  
+Below is a table of supported variables:
+
+| Variable             | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| `show-change-button` | If the user should be able to refresh the text. |
+| `css-background`     | Badge background color.                         |
+| `css-color`          | Badge text color.                               |
+| `css-border`         | Badge border color.                             |
+| `css-font-size`      | Badge font size.                                |
+| `css-button-bg`      | Refresh button background color.                |
+| `css-button-color`   | Refresh button text color.                      |
