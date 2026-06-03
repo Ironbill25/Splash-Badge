@@ -24,9 +24,10 @@ After you have made the configuration, change the `data-path` attribute on the `
 
 ## Config variables
 
-Variables are placed above the `---` divider. They should use `key:value` or `key: value` format.  
+Configuration variables are placed above the `---` divider. They should use `key:value` or `key: value` format.  
 Variables starting with `css-` are interpreted as CSS variables to apply to the badge.  
-Below is a table of supported variables:
+For example, `css-color` would become `--splash-badge-color`.
+Below is a table of supported variables used by the default theme:
 
 | Variable             | Description                                     |
 | -------------------- | ----------------------------------------------- |
